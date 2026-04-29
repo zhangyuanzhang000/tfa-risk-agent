@@ -1,0 +1,45 @@
+{
+  "name": "tfa-risk-agent",
+  "version": "3.2.0",
+  "description": "TFA（热带森林联盟）可持续供应链风险评估专业Agent。基于双指标评估体系，支持棕榈油、大豆、牛、咖啡、可可、橡胶六大软性商品风险评估。",
+  "author": "zhangyuanzhang000",
+  "license": "MIT",
+  "keywords": [
+    "TFA",
+    "供应链风险",
+    "EUDR",
+    "CSRD",
+    "CDP",
+    "ESG",
+    "尽职调查",
+    "DDQ",
+    "森林风险商品",
+    "可持续供应链"
+  ],
+  "categories": ["finance", "compliance", "esg"],
+  "entry": {
+    "skill": "SKILL.md"
+  },
+  "requirements": {
+    "python": ">=3.8",
+    "dependencies": [
+      "pandas",
+      "numpy",
+      "openpyxl",
+      "requests"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangyuanzhang000/tfa-risk-agent"
+  },
+  "activation": {
+    "keywords": [
+      "TFA风险评估",
+      "供应链尽调",
+      "森林风险商品",
+      "EUDR合规",
+      "DDQ评估"
+    ]
+  }
+}
